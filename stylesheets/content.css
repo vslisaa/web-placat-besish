@@ -517,7 +517,7 @@ html::-webkit-scrollbar {
     position: absolute;
     width: 100vw;
     height: 101vh;
-    top: 201vw;
+    top: 205vw;
     background-color: #ffffff;
     z-index: 1; 
 }
