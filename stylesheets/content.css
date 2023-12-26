@@ -1,0 +1,631 @@
+body{
+    position: relative;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    overflow-x: hidden;
+} 
+
+html::-webkit-scrollbar { 
+    display: none; 
+}
+
+.krasn{
+    width: 99vw;
+    height: 3.2vw;
+    background-color: #AE0000;
+    margin-top: auto;
+    margin-left: 1vw;
+    position: relative;
+    align-items: center;
+    display: flex;
+
+}
+
+.belp1{
+    width: 93vw;
+    height: 0.7vw;
+    position: absolute;
+    margin-left: 3vw;
+    background-color: #C67A7A;
+    display: flex;
+    justify-content: center;
+    animation: belp1 0.5s linear infinite;
+}
+
+.belp2{
+    width: 93vw;
+    height: 0.7vw;
+    position: absolute;
+    margin-left: 6vw;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes belp1{
+    0%, 50%{ background: #C67A7A; }
+    100% { background: #AE0000 ;}
+}
+
+
+.besish {
+  width: 75vw;
+  height: 35vh;
+  background-image: url("../img/bes1.svg");
+  background-repeat: no-repeat;
+  animation: besishat 1s steps(1) infinite;
+  margin-top: 6vw;
+  margin-left: 17vh;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes besishat {
+  0% {background-image: url("../img/bes2.svg");}
+  50% {background-image: url("../img/bes1.svg");}
+}
+
+.cat {
+    width: 30vw;
+    height: 60vh;
+    background-image: url("../img/котнорм.svg");
+    background-repeat: no-repeat;
+    animation: catat 1s steps(1) infinite;
+    margin-top: -0.05vh;
+    margin-left: 70vw;
+    position: absolute;
+    animation-play-state: paused;
+   
+  }
+  
+  .cat:hover{
+    animation-play-state: running;
+}
+  
+  @keyframes catat {
+    0% {background-image: url("../img/котстрём.svg");}
+    50% {background-image: url("../img/котнорм.svg");}
+  }
+
+
+  .serij{
+    width: 30vw;
+    height: 18vh;
+    margin-top: 59vh;
+    margin-left: 70vw;
+    position: absolute;
+    background-color: #979797;
+  }
+  
+  .krasnij{
+    width: 30vw;
+    height: 18vh;
+    margin-top: 77vh;
+    margin-left: 70vw;
+    position: absolute;
+    background-color: #AE0000;
+  }
+
+  .prihodi{
+    position: absolute;
+    font-size: 4.25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+    white-space: nowrap;
+    margin-top: 66vh;
+    margin-left: 71.5vw; 
+  }
+
+  .besit{
+    position: absolute;
+    font-size: 4.25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #AE0000;
+    margin-top: 66vh;
+    margin-left: 86.2vw;
+  }
+
+  .suda{
+    position: relative;
+    font-size: 17vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 80vh;
+    margin-left: 71vw;
+    rotate: 180deg;
+  }
+
+
+
+/* УВЕДОМЛЕНИЯ */
+  .uved0{
+    position: absolute;
+    width: 23vw;
+    height: 19vh;
+    margin-top: -107.5vh;
+    margin-left: 76vw;
+    animation: uved0 1.3s infinite alternate;
+    animation-timing-function: ease-in-out; 
+    overflow: hidden;
+  }
+
+  .uved0 img{
+    width: 23vw;
+    height: 19vh;
+ 
+  }
+
+  @keyframes uved0 {
+    0% {left: 25%;}
+    80% {left: 0%;}
+    100% {left: 0%;}
+  }
+
+
+/* .uved00{
+    position: absolute;
+    width: 23vw;
+    height: 19vh;
+    margin-top: -107.5vh;
+    margin-left: 76vw;
+    animation: uved00 1.3s infinite alternate;
+    animation-timing-function: ease-in-out; 
+    overflow: hidden;
+    display: none;
+  }
+
+.uved00 img{
+    width: 23vw;
+    height: 19vh;
+ 
+  }
+
+@keyframes uved00 {
+    0% {top: 25%;}
+    80% {top: 0%;}
+    100% {top: 0%;}
+  } */
+
+  .uved00 {
+
+    display: none;
+  }
+
+
+
+.klaksa img{
+    position: absolute;
+    width: 130vw;
+    height: 80vh;
+    margin-top: 5vw;
+    margin-left: -60vh;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.stop{
+    position: absolute;
+    width: 62vw;
+    height: 40vh;
+    margin-top: -35vh;
+    margin-left: -2vw;
+    rotate: -6deg;
+    animation: stopat 2s infinite;
+    
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+@keyframes stopat{
+    0%{background-image: url(../img/st1.svg);}
+    6%{background-image: url(../img/st2.svg);}
+    12%{background-image: url(../img/st3.svg);}
+    18%{background-image: url(../img/st4.svg);}
+    26%{background-image: url(../img/st5.svg);}
+    35%{background-image: url(../img/st6.svg);}
+    44%{background-image: url(../img/st7.svg);}
+    53%{background-image: url(../img/st8.svg);}
+    61%{background-image: url(../img/st9.svg);}
+    72%{background-image: url(../img/st10.svg);}
+    83%{background-image: url(../img/st11.svg);}
+    91%{background-image: url(../img/st12.svg);}
+    100%{background-image: url(../img/st13.svg);}
+}
+
+.kvadrat{
+    position: relative;
+    width: 33vw;
+    height: 45vh;
+    margin-left: 6vw;
+    margin-top: -5vh;
+    animation: kvadratat 3s linear infinite;
+    background-repeat: no-repeat;
+    animation-play-state: paused;
+    z-index: 2;
+}
+
+
+.kvadrat:hover{
+    animation-play-state: running;
+} 
+
+@keyframes kvadratat{
+    0%{background-image: url(../img/kvadrat2.svg);}
+   30%{background-image: url(../img/kvadrat3.svg);}
+    100%{background-image: url(../img/kvadrat3.svg);scale: 1.2;}
+}
+
+
+
+.treugolnik{
+    position: relative;
+    width: 30vw;
+    height: 57vh;
+    margin-left: 70vw;
+    margin-top: -18vh;
+    animation: treugolnikat 3s linear infinite;
+    background-repeat: no-repeat;
+    animation-play-state: paused;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+
+.treugolnik:hover{
+    animation-play-state: running;
+} 
+
+@keyframes treugolnikat{
+    0%{background-image: url(../img/treugolnik1.svg);}
+   30%{background-image: url(../img/treugolnik2.svg);}
+    100%{background-image: url(../img/treugolnik2.svg); scale: 1.2;}
+}
+
+
+
+.rectbel{
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.krug{
+    position: absolute;
+    width: 2.8vw;
+    height: 2.8vw;
+    background-color: #AE0000;
+    border-radius: 2.5vw;
+    margin-top: 0.6vh;
+    margin-left: 0vw;
+    animation: krugat 10s linear infinite ;
+}
+
+
+@keyframes krugat {
+    0% {
+        transform: translatex(0vw) translatey(0vw)
+    }
+    70% {
+        transform: translatex(95vw) translatey(11.6vw);
+    }
+    100%{ transform: translatex(95vw) translatey(11.6vw);}
+}
+
+
+.gde{
+    position: relative;
+    font-size: 3vh;
+    line-height: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 2vh;
+    margin-right: 4vw;
+    rotate: 7deg;
+}
+
+.gde:hover{
+    color: black;
+}
+
+.agentstvo{
+    position: relative;
+    font-size: 6vh;
+    line-height: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 13vh;
+    margin-left: 4vw;
+    rotate: -172deg;
+}
+
+.agentstvo:hover{
+    color: black;
+}
+
+.setka {
+    width: 30vw;
+    height: 60vh;
+    background-image: url("../img/setka1.svg");
+    background-repeat: no-repeat;
+    animation: setkaat 1s step-end infinite;
+    margin-top: -30vh;
+    margin-left: 3vw;
+    position: absolute;
+    animation-play-state: paused;
+    z-index: 5;
+   
+  }
+  
+  .setka:hover{
+    animation-play-state: running;
+}
+  
+  @keyframes setkaat {
+    0% {background-image: url("../img/setka1.svg");}
+    50% {background-image: url("../img/setka2.svg");}
+  }
+
+
+
+  .krugg{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    margin-left: 20vw;
+    margin-top: 40vh;
+    animation: kruggat 3s linear infinite;
+    background-repeat: no-repeat;
+    animation-play-state: paused;
+    z-index: 4;
+}
+
+.krugg:hover{
+    animation-play-state: running;
+} 
+
+@keyframes kruggat{
+    0%{background-image: url(../img/krugg1.svg);}
+   30%{background-image: url(../img/krugg2.svg);}
+    100%{background-image: url(../img/krugg2.svg); scale: 1.1;}
+}
+
+
+.ssetka {
+    width: 40vw;
+    height: 60vh;
+    background-image: url("../img/ssetka1.svg");
+    background-repeat: no-repeat;
+    animation: ssetkaat 1s ease-in-out infinite;
+    margin-top: -70vh;
+    margin-left: 60vw;
+    position: absolute;
+    animation-play-state: paused;
+  }
+  
+.ssetka:hover{
+    animation-play-state: running;
+}
+  
+  @keyframes ssetkaat {
+    0% {background-image: url("../img/ssetka1.svg");}
+    50% {background-image: url("../img/ssetka2.svg");}
+  }
+
+.kontakts{
+    position: absolute;
+    font-size: 3vh;
+    line-height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 13vh;
+    margin-left: 4vw;
+    z-index: 4;
+}
+
+.kontakts:hover{
+    color: black;
+}
+
+.nebesi{
+    position: relative;
+    margin-top: -85vh;
+    margin-left: 1vw;
+    z-index: 3;
+    width: 27vw;
+}
+
+
+.kontakts{
+    position: absolute;
+    font-size: 3vh;
+    line-height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ffffff;
+    margin-top: -68vh;
+    margin-left: 4vw;
+    z-index: 7;
+}
+
+
+.kontakts:hover{
+    color: black;
+}
+
+.hvatitlin{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    top: -50vh;
+    left: -2;
+    overflow: hidden;
+    z-index: 3;  
+}
+
+
+.hvatitlin img{
+    width: 100vw;
+    z-index: 4; 
+}
+
+.hvatitlin p{
+    position: absolute;
+    font-size: 6vh;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    rotate: 4.8deg;
+    color: #ffffff;
+    top: 13.3vh;
+    left: 4vw;
+    animation: hvatittextat 2.5s linear infinite;
+    z-index: 4; 
+}
+
+@keyframes hvatittextat{
+    0%{
+        transform: translateX(0);}
+    100%{ transform: translateX(-55vw);}
+    }
+
+.fon{
+    position: absolute;
+    width: 100vw;
+    height: 101vh;
+    top: 201vw;
+    background-color: #ffffff;
+    z-index: 1; 
+}
+
+.oshibka{
+    position: absolute;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    color: #000000;
+    top: 431vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 2; 
+
+}
+
+.proverte{
+    position: absolute;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    color: #000000;
+    top: 441vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.podval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ok{
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 460vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.ok p{
+    position: absolute;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    color: #000000;
+    top: 3.5vh;
+    text-align: center;
+    z-index: 3; 
+
+}
+
+.logo{
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 485.5vh;
+    z-index: 2;
+}
+
+.ya{
+    position: absolute;
+    width: 30vw;
+    height: 17vh;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #000000;
+    top: 485.5vh;
+    text-align: right;
+    z-index: 2; 
+    right: 0.8vw;
+}
+
+
+.glaza {
+    width: 45vw;
+    height: 50vh;
+    background-image: url("../img/glaza1.svg");
+    background-repeat: no-repeat;
+    animation: glazaat 1s steps(1) infinite;
+    top: 320vh;
+    right: 0vw;
+    position: absolute;
+    animation-play-state: paused; 
+    z-index: 8;
+  }
+  
+.glaza:hover{
+    animation-play-state: running;
+}
+  
+@keyframes glazaat {
+    0% {background-image: url("../img/glaza2.svg");}
+    50% {background-image: url("../img/glaza1.svg");}
+}

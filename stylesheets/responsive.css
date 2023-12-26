@@ -1,0 +1,1240 @@
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 414px)
+{
+    body{
+        position: relative;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: black;
+        overflow-x: hidden;
+    } 
+    
+    html::-webkit-scrollbar { 
+        display: none; 
+    }
+    
+    .krasn{
+        width: 97vw;
+        height: 12vw;
+        background-color: #AE0000;
+        margin-top: auto;
+        margin-left: 3vw;
+        position: relative;
+        align-items: center;
+        display: flex;
+    
+    }
+    
+    .belp1{
+        width: 93vw;
+        height: 4vw;
+        position: absolute;
+        margin-left: 3vw;
+        background-color: #C67A7A;
+        display: flex;
+        justify-content: center;
+        animation: belp1 0.5s linear infinite;
+    }
+    
+    .belp2{
+        width: 91vw;
+        height: 4vw;
+        position: absolute;
+        margin-left: 6vw;
+        background-color: #EBEBEB;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    @keyframes belp1{
+        0%, 50%{ background: #C67A7A; }
+        100% { background: #AE0000 ;}
+    }
+    
+    
+    .besish {
+      width: 75vw;
+      background-image: url("../img/bes1.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      animation: besishat 1s steps(1) infinite;
+      margin-top: 8vw;
+      margin-left: 6vh;
+      position: absolute;
+      z-index: 1;
+    }
+
+    
+    @keyframes besishat {
+      0% {background-image: url("../img/bes2.svg");}
+      50% {background-image: url("../img/bes1.svg");}
+    }
+    
+    .cat {
+        width: 50vw;
+        height: 60vh;
+        background-image: url("../img/котнорм.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: catat 1s steps(1) infinite;
+        margin-top: 15vh;
+        margin-left: 0vw;
+        position: absolute;
+        animation-play-state: paused;
+       
+      }
+      
+      .cat:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes catat {
+        0% {background-image: url("../img/котстрём.svg");}
+        50% {background-image: url("../img/котнорм.svg");}
+      }
+    
+    
+      .serij{
+        width: 51vw;
+        height: 11.35vh;
+        margin-top: 15.1vh;
+        margin-left: 50vw;
+        position: absolute;
+        background-color: #979797;
+      }
+      
+      .krasnij{
+        width: 51vw;
+        height: 11.35vh;
+        margin-top: 26.45vh;
+        margin-left: 50vw;
+        position: absolute;
+        background-color: #AE0000;
+      }
+    
+      .prihodi{
+        position: absolute;
+        font-size: 1.7vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 550;
+        color: black;
+        white-space: nowrap;
+        margin-top: 22.5vh;
+        margin-left: 52vw; 
+      }
+    
+      .besit{
+        position: absolute;
+        font-size: 1.7vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 550;
+        color: #AE0000;
+        margin-top: 22.5vh;
+        margin-left: 77.5vw;
+      }
+    
+      .suda{
+        position: relative;
+        font-size: 7vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: #ffffff;
+        margin-top: 31.5vh;
+        margin-left: 71vw;
+        rotate: 180deg;
+      }
+    
+    
+    
+    /* УВЕДОМЛЕНИЯ */
+      .uved0{
+        display: none;
+      }
+    
+
+      .uved00{
+        position: absolute;
+        width: 90vh;
+        height: 19vh;
+        margin-top: 4vh;
+        margin-left: 5vw;
+        animation: uved00 1.3s infinite alternate;
+        animation-timing-function: ease-in-out; 
+        overflow: hidden;
+        display: block;
+        z-index: 4;
+
+      }
+    
+      .uved00 img{
+        width: 90vw;
+        height: 19vh;
+      }
+    
+      @keyframes uved00 {
+        0% {top: -5.2%;}
+        70% {top: -5.2%;}
+        100% {top: -13%;}
+      }
+
+    .klaksa{
+        width: 70vw;
+
+    }
+
+    .klaksa img{
+        position: absolute;
+        width: 100vw;
+        height: 60vh;
+        margin-top: -40vw;
+        margin-left: 2vh;
+        z-index: 3;
+        rotate: 180deg;
+    }
+    
+    .stop{
+        position: absolute;
+        width: 66vw;
+        height: 40vh;
+        margin-top: 1vh;
+        margin-left: -2vw;
+        rotate: -6deg;
+        animation: stopat 2s infinite;
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: 100%;
+    }
+    
+    
+    @keyframes stopat{
+        0%{background-image: url(../img/st1.svg);}
+        6%{background-image: url(../img/st2.svg);}
+        12%{background-image: url(../img/st3.svg);}
+        18%{background-image: url(../img/st4.svg);}
+        26%{background-image: url(../img/st5.svg);}
+        35%{background-image: url(../img/st6.svg);}
+        44%{background-image: url(../img/st7.svg);}
+        53%{background-image: url(../img/st8.svg);}
+        61%{background-image: url(../img/st9.svg);}
+        72%{background-image: url(../img/st10.svg);}
+        83%{background-image: url(../img/st11.svg);}
+        91%{background-image: url(../img/st12.svg);}
+        100%{background-image: url(../img/st13.svg);}
+    }
+    
+    .kvadrat{
+        position: relative;
+        width: 33vw;
+        height: 45vh;
+        margin-left: 6vw;
+        margin-top: 7vh;
+        animation: kvadratat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 2;
+        background-size: 100%;
+    }
+    
+    
+    .kvadrat:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes kvadratat{
+        0%{background-image: url(../img/kvadrat2.svg);}
+       30%{background-image: url(../img/kvadrat3.svg);}
+        100%{background-image: url(../img/kvadrat3.svg);scale: 1.2;}
+    }
+    
+    
+.treugolnik{
+        position: relative;
+        width: 40vw;
+        height: 57vh;
+        margin-left: 64vw;
+        margin-top: -40vh;
+        animation: treugolnikat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 2;
+        overflow: hidden;
+        background-size: 100%;
+    
+}
+    
+    
+    .treugolnik:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes treugolnikat{
+        0%{background-image: url(../img/treugolnik1.svg);}
+       30%{background-image: url(../img/treugolnik2.svg);}
+        100%{background-image: url(../img/treugolnik2.svg); scale: 1.2;}
+    }
+    
+    
+    
+    .rectbel{
+        position: absolute;
+        width: 100vw;
+        height: 15vh;
+        overflow: hidden;
+        margin-top: -40vh;
+        margin-left: 0vw;
+    }
+    
+    .rectbel img{
+        width: 100vw;
+    }
+
+
+    .krug{
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        background-color: #AE0000;
+        border-radius: 2.5vw;
+        margin-top: -40vh;
+        margin-left: 0vw;
+        animation: krugat 8s linear infinite ;
+    }
+    
+    
+    @keyframes krugat {
+        0% {
+            transform: translatex(0vw) translatey(0vw)
+        }
+        70% {
+            transform: translatex(95vw) translatey(11.6vw);
+        }
+        100%{ transform: translatex(95vw) translatey(11.6vw);}
+    }
+    
+    
+    .gde{
+        position: relative;
+        font-size: 1.2vh;
+        line-height: 2vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: right;
+        color: #ffffff;
+        margin-top: -42vh;
+        margin-right: 4vw;
+        rotate: 7deg;
+    }
+    
+    .gde:hover{
+        color: black;
+    }
+    
+    .agentstvo{
+        position: relative;
+        font-size: 1.8vh;
+        line-height: 4vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: right;
+        color: #ffffff;
+        margin-top: 2.1vh;
+        margin-left: 4vw;
+        rotate: -172deg;
+    }
+    
+    .agentstvo:hover{
+        color: black;
+    }
+    
+    .setka {
+        width: 40vw;
+        height: 60vh;
+        background-image: url("../img/setka1.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: setkaat 1s step-end infinite;
+        margin-top: -10vh;
+        margin-left: 3vw;
+        position: absolute;
+        animation-play-state: paused;
+        z-index: 5;
+      }
+      
+      .setka:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes setkaat {
+        0% {background-image: url("../img/setka1.svg");}
+        50% {background-image: url("../img/setka2.svg");}
+      }
+    
+      .krugg{
+        position: relative;
+        width: 43vw;
+        height: 80vh;
+        margin-left: 22vw;
+        margin-top:14vh;
+        animation: kruggat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 4;
+        background-size: 100%;
+    }
+    
+    .krugg:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes kruggat{
+        0%{background-image: url(../img/krugg1.svg);}
+       30%{background-image: url(../img/krugg2.svg);}
+        100%{background-image: url(../img/krugg2.svg); scale: 1.1;}
+    }
+    
+    
+    .ssetka {
+        width: 40vw;
+        height: 60vh;
+        background-image: url("../img/ssetka1.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: ssetkaat 1s ease-in-out infinite;
+        margin-top: -87vh;
+        margin-left: 60vw;
+        position: absolute;
+        animation-play-state: paused;
+      }
+      
+    .ssetka:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes ssetkaat {
+        0% {background-image: url("../img/ssetka1.svg");}
+        50% {background-image: url("../img/ssetka2.svg");}
+      }
+    
+    .nebesi{
+        position: relative;
+        margin-top: -80vh;
+        margin-left: 1vw;
+        z-index: 3;
+        width: 25vw;
+    }
+
+    .nebesi img{
+        width: 25vw;
+    }
+    
+    
+    .kontakts{
+        position: absolute;
+        font-size: 1.2vh;
+        line-height: 1.6vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: left;
+        color: #ffffff;
+        margin-top: -77vh;
+        margin-left: 4vw;
+        z-index: 7;
+    }
+    
+    
+    .kontakts:hover{
+        color: black;
+    }
+    
+    .hvatitlin{
+        position: relative;
+        width: 100vw;
+        height: 30vh;
+        top: -14vh;
+        left: -2;
+        overflow: hidden;
+        z-index: 3;  
+    }
+    
+    .hvatitlin img{
+        width: 100vw;
+        z-index: 4; 
+    }
+    
+    .hvatitlin p{
+        position: absolute;
+        font-size: 1.8vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 600;
+        text-transform: uppercase;
+        rotate: 4.8deg;
+        color: #ffffff;
+        margin-top: -9.5vh;
+        left: 4vw;
+        animation: hvatittextat 2.5s linear infinite;
+        z-index: 4; 
+    }
+    
+    @keyframes hvatittextat{
+        0%{
+            transform: translateX(0);}
+        100%{ transform: translateX(-40vw);}
+        }
+    
+.glaza {
+            width: 60vw;
+            height: 50vh;
+            background-image: url("../img/glaza1.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            animation: glazaat 1s steps(1) infinite;
+            top: 113vh;
+            right: 0vw;
+            position: absolute;
+            animation-play-state: paused; 
+            z-index: 8;
+          }
+          
+.glaza:hover{
+            animation-play-state: running;
+        }
+          
+@keyframes glazaat {
+            0% {background-image: url("../img/glaza2.svg");}
+            50% {background-image: url("../img/glaza1.svg");}
+}
+
+ .fon{
+        position: absolute;
+        width: 100vw;
+        height: 101vh;
+        top: 284vw;
+        background-color: #ffffff;
+        z-index: 1; 
+}
+    
+    .oshibka{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 160vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        z-index: 2; 
+    
+    }
+    
+    .proverte{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 170vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        z-index: 2; 
+    }
+    
+    .podval{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .ok{
+        width: 40vw;
+        height: 10vh;
+        position: absolute;
+        top: 177vh;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ok img{
+        width: 40vw;
+
+    }
+    
+    .ok p{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 4.1vh;
+        text-align: center;
+        z-index: 3; 
+    }
+    
+    .logo{
+        width: 40vw;
+        height: 6vh;
+        position: absolute;
+        top: 224.5vh;
+     
+    }
+
+    .logo img{
+        width: 40vw;
+
+    }
+    
+    .ya{
+        position: absolute;
+        width: 60vw;
+        height: 7vh;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #000000;
+        top: 225vh;
+        text-align: right;
+        z-index: 2; 
+        left: 38vw;
+    }    
+
+    
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    body{
+        position: relative;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: black;
+        overflow-x: hidden;
+    } 
+    
+    html::-webkit-scrollbar { 
+        display: none; 
+    }
+    
+    .krasn{
+        width: 103vw;
+        height: 5vh;
+        background-color: #AE0000;
+        margin-top: auto;
+        margin-left: 4vw;
+        position: relative;
+        align-items: center;
+        display: flex;
+    
+    }
+    
+    .belp1{
+        width: 97vw;
+        height: 2vw;
+        position: absolute;
+        margin-left: 3vw;
+        background-color: #C67A7A;
+        display: flex;
+        justify-content: center;
+        animation: belp1 0.5s linear infinite;
+    }
+    
+    .belp2{
+        width: 97vw;
+        height: 2vw;
+        position: absolute;
+        margin-left: 6vw;
+        background-color: #EBEBEB;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    @keyframes belp1{
+        0%, 50%{ background: #C67A7A; }
+        100% { background: #AE0000 ;}
+    }
+    
+    
+    .besish {
+      width: 60vw;
+      background-image: url("../img/bes1.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      animation: besishat 1s steps(1) infinite;
+      margin-top: 8vw;
+      margin-left: 6vh;
+      position: absolute;
+      z-index: 1;
+    }
+
+    
+    @keyframes besishat {
+      0% {background-image: url("../img/bes2.svg");}
+      50% {background-image: url("../img/bes1.svg");}
+    }
+    
+    .cat {
+        width: 30vw;
+        height: 60vh;
+        background-image: url("../img/котнорм.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: catat 1s steps(1) infinite;
+        margin-top: -0.05vh;
+        margin-left: 77vw;
+        position: absolute;
+        animation-play-state: paused;
+       
+      }
+      
+      .cat:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes catat {
+        0% {background-image: url("../img/котстрём.svg");}
+        50% {background-image: url("../img/котнорм.svg");}
+      }
+    
+    
+      .serij{
+        width: 30vw;
+        height: 8vh;
+        margin-top: 22vh;
+        margin-left:77.5vw;
+        position: absolute;
+        background-color: #979797;
+      }
+      
+      .krasnij{
+        width: 30vw;
+        height: 8vh;
+        margin-top: 29.40vh;
+        margin-left: 77.5vw;
+        position: absolute;
+        background-color: #AE0000;
+      }
+    
+      .prihodi{
+        position: absolute;
+        font-size: 1.5vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 550;
+        color: black;
+        white-space: nowrap;
+        margin-top: 26vh;
+        margin-left: 80.5vw; 
+      }
+    
+      .besit{
+        position: absolute;
+        font-size: 1.5vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 550;
+        color: #AE0000;
+        margin-top: 26vh;
+        margin-left: 94.5vw;
+      }
+    
+      .suda{
+        position: relative;
+        font-size: 6.5vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: #ffffff;
+        margin-top: 32vh;
+        margin-right: -7vw;
+        rotate: 180deg;
+      }
+    
+    
+    
+    /* УВЕДОМЛЕНИЯ */
+    .uved0{
+        position: absolute;
+        width: 40vw;
+        height: 19vh;
+        margin-top: -49.5vh;
+        margin-left: 76vw;
+        animation: uved0 1.3s infinite alternate;
+        animation-timing-function: ease-in-out; 
+        overflow: hidden;
+      }
+    
+      .uved0 img{
+        width: 40vw;
+        height: 19vh;
+     
+      }
+    
+      @keyframes uved0 {
+        0% {left: 25%;}
+        80% {left: -10%;}
+        100% {left: -10%;}
+      }
+    
+
+    .uved00{
+        display: none;
+      }
+    
+    
+    .klaksa{
+        width: 70vw;
+
+    }
+
+    .klaksa img{
+        position: absolute;
+        width: 100vw;
+        height: 70vh;
+        margin-top: -15vw;
+        margin-left: -8vh;
+        z-index: 3;
+        rotate: 180deg;
+    }
+    
+    .stop{
+        position: absolute;
+        width: 66vw;
+        height: 40vh;
+        margin-top: -7vh;
+        margin-left: -2vw;
+        rotate: -6deg;
+        animation: stopat 2s infinite;
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: 100%;
+    }
+    
+    
+    @keyframes stopat{
+        0%{background-image: url(../img/st1.svg);}
+        6%{background-image: url(../img/st2.svg);}
+        12%{background-image: url(../img/st3.svg);}
+        18%{background-image: url(../img/st4.svg);}
+        26%{background-image: url(../img/st5.svg);}
+        35%{background-image: url(../img/st6.svg);}
+        44%{background-image: url(../img/st7.svg);}
+        53%{background-image: url(../img/st8.svg);}
+        61%{background-image: url(../img/st9.svg);}
+        72%{background-image: url(../img/st10.svg);}
+        83%{background-image: url(../img/st11.svg);}
+        91%{background-image: url(../img/st12.svg);}
+        100%{background-image: url(../img/st13.svg);}
+    }
+    
+    .kvadrat{
+        position: relative;
+        width: 33vw;
+        height: 45vh;
+        margin-left: 6vw;
+        margin-top: 3vh;
+        animation: kvadratat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 2;
+        background-size: 100%;
+    }
+    
+    
+    .kvadrat:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes kvadratat{
+        0%{background-image: url(../img/kvadrat2.svg);}
+       30%{background-image: url(../img/kvadrat3.svg);}
+        100%{background-image: url(../img/kvadrat3.svg);scale: 1.2;}
+    }
+    
+    
+.treugolnik{
+        position: relative;
+        width: 40vw;
+        height: 57vh;
+        margin-left: 70vw;
+        margin-top: -40vh;
+        animation: treugolnikat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 2;
+        overflow: hidden;
+        background-size: 100%;
+    
+}
+    
+    
+    .treugolnik:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes treugolnikat{
+        0%{background-image: url(../img/treugolnik1.svg);}
+       30%{background-image: url(../img/treugolnik2.svg);}
+        100%{background-image: url(../img/treugolnik2.svg); scale: 1.2;}
+    }
+    
+    
+    
+    .rectbel{
+        position: absolute;
+        width: 107vw;
+        height: 15vh;
+        overflow: hidden;
+        margin-top: -36vh;
+        margin-left: 0vw;
+        background-size: 100%;
+    }
+    
+    .rectbel img{
+        width: 107vw;
+    }
+
+
+    .krug{
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        background-color: #AE0000;
+        border-radius: 2.5vw;
+        margin-top: -35.8vh;
+        margin-left: 0vw;
+        animation: krugat 8s linear infinite ;
+    }
+    
+    
+    @keyframes krugat {
+        0% {
+            transform: translatex(0vw) translatey(0vw)
+        }
+        70% {
+            transform: translatex(95vw) translatey(11.6vw);
+        }
+        100%{ transform: translatex(95vw) translatey(11.6vw);}
+    }
+    
+    
+    .gde{
+        position: relative;
+        font-size: 1.3vh;
+        line-height: 2vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: right;
+        color: #ffffff;
+        margin-top: -36vh;
+        margin-right: 1vw;
+        rotate: 7deg;
+    }
+    
+    .gde:hover{
+        color: black;
+    }
+    
+    .agentstvo{
+        position: relative;
+        font-size: 1.9vh;
+        line-height: 4vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: right;
+        color: #ffffff;
+        margin-top: 3.1vh;
+        margin-left: 4vw;
+        rotate: -172deg;
+    }
+    
+    .agentstvo:hover{
+        color: black;
+    }
+    
+    .setka {
+        width: 40vw;
+        height: 60vh;
+        background-image: url("../img/setka1.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: setkaat 1s step-end infinite;
+        margin-top: -10vh;
+        margin-left: 3vw;
+        position: absolute;
+        animation-play-state: paused;
+        z-index: 5;
+      }
+      
+      .setka:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes setkaat {
+        0% {background-image: url("../img/setka1.svg");}
+        50% {background-image: url("../img/setka2.svg");}
+      }
+    
+      .krugg{
+        position: relative;
+        width: 43vw;
+        height: 80vh;
+        margin-left: 25vw;
+        margin-top: 10vh;
+        animation: kruggat 3s linear infinite;
+        background-repeat: no-repeat;
+        animation-play-state: paused;
+        z-index: 4;
+        background-size: 100%;
+    }
+    
+    .krugg:hover{
+        animation-play-state: running;
+    } 
+    
+    @keyframes kruggat{
+        0%{background-image: url(../img/krugg1.svg);}
+       30%{background-image: url(../img/krugg2.svg);}
+        100%{background-image: url(../img/krugg2.svg); scale: 1.1;}
+    }
+    
+    
+    .ssetka {
+        width: 50vw;
+        height: 60vh;
+        background-image: url("../img/ssetka1.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: ssetkaat 1s ease-in-out infinite;
+        margin-top: -78vh;
+        margin-left: 65vw;
+        position: absolute;
+        animation-play-state: paused;
+      }
+      
+    .ssetka:hover{
+        animation-play-state: running;
+    }
+      
+      @keyframes ssetkaat {
+        0% {background-image: url("../img/ssetka1.svg");}
+        50% {background-image: url("../img/ssetka2.svg");}
+      }
+    
+    .nebesi{
+        position: relative;
+        margin-top: -75vh;
+        margin-left: 1vw;
+        z-index: 3;
+        width: 25vw;
+    }
+
+    .nebesi img{
+        width: 25vw;
+    }
+    
+    
+    .kontakts{
+        position: absolute;
+        font-size: 1.2vh;
+        line-height: 1.6vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: left;
+        color: #ffffff;
+        margin-top: -68vh;
+        margin-left: 4vw;
+        z-index: 7;
+    }
+    
+    
+    .kontakts:hover{
+        color: black;
+    }
+    
+    .hvatitlin{
+        position: relative;
+        width: 107vw;
+        height: 30vh;
+        top: -20vh;
+        left: -2;
+        overflow: hidden;
+        z-index: 3;  
+    }
+    
+    .hvatitlin img{
+        width: 107vw;
+        z-index: 4; 
+    }
+    
+    .hvatitlin p{
+        position: absolute;
+        font-size: 2.3vh;
+        font-family: 'Montserrat', sans-serif;
+        white-space: nowrap;
+        font-weight: 600;
+        text-transform: uppercase;
+        rotate: 4.8deg;
+        color: #ffffff;
+        margin-top: -8.2vh;
+        left: 4vw;
+        animation: hvatittextat 2.5s linear infinite;
+        z-index: 4; 
+    }
+    
+    @keyframes hvatittextat{
+        0%{
+            transform: translateX(0);}
+        100%{ transform: translateX(-40vw);}
+        }
+    
+.glaza {
+            width: 65vw;
+            height: 50vh;
+            background-image: url("../img/glaza1.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            animation: glazaat 1s steps(1) infinite;
+            top: 125vh;
+            right: -7.5vw;
+            position: absolute;
+            animation-play-state: paused; 
+            z-index: 8;
+          }
+          
+.glaza:hover{
+            animation-play-state: running;
+        }
+          
+@keyframes glazaat {
+            0% {background-image: url("../img/glaza2.svg");}
+            50% {background-image: url("../img/glaza1.svg");}
+}
+
+ .fon{
+        position: absolute;
+        width: 107vw;
+        height: 110vh;
+        top: 210vw;
+        background-color: #ffffff;
+        z-index: 1; 
+}
+    
+    .oshibka{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 185vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        z-index: 2; 
+    
+    }
+    
+    .proverte{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 195vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        z-index: 2; 
+    }
+    
+    .podval{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .ok{
+        width: 20vw;
+        height: 10vh;
+        position: absolute;
+        top: 200vh;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-size: 100%;
+    }
+
+    .ok img{
+        width: 20vw;
+
+    }
+    
+    .ok p{
+        position: absolute;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #000000;
+        top: 4.1vh;
+        text-align: center;
+        z-index: 3; 
+    }
+    
+    .logo{
+        width: 40vw;
+        height: 6vh;
+        position: absolute;
+        top: 228vh;
+     
+    }
+
+    .logo img{
+        width: 40vw;
+
+    }
+    
+    .ya{
+        position: absolute;
+        width: 60vw;
+        height: 7vh;
+        font-size: 1.6vh;
+        font-family: 'Inter', sans-serif;
+        white-space: nowrap;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #000000;
+        top: 233vh;
+        text-align: right;
+        z-index: 2; 
+        left: 45vw;
+    }   
+}
